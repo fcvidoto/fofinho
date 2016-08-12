@@ -18,10 +18,17 @@ body{
 
 h1{
 	font-family: 'Arial Black', Arial, sans-serif;
-	
+	margin-bottom: 0;
+}
+h2 {
+    color: #ffa00c;
+    margin-top: 0;
 }
 li{
 	font-size: 1.15em;
+}
+p {
+    line-height: 1.3em;
 }
 
 .lista-produtos .row .col-sm-2{
@@ -69,13 +76,23 @@ a, a:link, a:visited {
 
 a:hover{
 	color: red;
+	cursor: pointer;
+}
+a#link-produtos {
+	color: red;
 }
 
 .btm-margin{
 	border-bottom: 1px solid #acacac;
 }
 
-
+#img-galinha {
+	background: url('../imgs/galinha1.png');
+	background-repeat: no-repeat;
+	width: 288px;
+	height: 258px;
+	display: block;
+}
 
 /* BANNER */
 
@@ -94,16 +111,14 @@ a:hover{
 	text-align: center;
 	color: white;
 	font-family: 'Forte',cursive;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
 
 
 /* NAVIGATION BAR */
-
 .nav-fof {
 	margin-top: 40px;
 }
-
 
 .nav-fof a {
 	color: #d72418;
@@ -116,7 +131,6 @@ a:hover{
 li.tabb > a:hover{
 
 }
-
 
 .nav-tabs > li.active-tabs > a,
 .nav-tabs > li.active-tabs > a:hover,
@@ -132,7 +146,6 @@ li.tabb > a:hover{
 	padding-bottom: 20px;
 }
 
-
 .jumbotron {
 	padding-top: 10px;
 	min-height: 500px;
@@ -146,7 +159,6 @@ li.tabb > a:hover{
 .jumbotron-active{
 	display: block;
 }
-
 
 .carousel-produtos .img-slide{
 	display: none;
@@ -165,7 +177,6 @@ li.tabb > a:hover{
 
 
 /* PRODUTOS */
-
 .lista-produtos{
 	margin: 0px;
 	padding: 0px;
@@ -175,7 +186,6 @@ li.tabb > a:hover{
 #Jumbo-Produtos div {
 	height: auto;
 }
-
 
 .marcas-logo .row{
 	margin-bottom: 40px;
@@ -205,9 +215,7 @@ li.tabb > a:hover{
 
 }
 
-
 /* LOCALIZACAO */
-
 #Jumbo-Localizacao div {
 	height: auto;
 }
@@ -229,8 +237,6 @@ div#iframe-mapa{
 }
 
 /* CONTATO */
-
-
 #Jumbo-Contato div {
 	height: auto;
 }
@@ -240,25 +246,56 @@ div#iframe-mapa{
 	margin-bottom: 0px;
 }
 
-
 /* FOOTER */
-
-
 .footer {
 	clear: both;
 	margin-top: 15px;
 	text-align: center;
 }
 
-
+/*--------------------------------------*/
 /* MEDIA QUERIES */
+#banner-text {
+	font-size: 4em;
+}
 
+
+@media (max-width:1200px) {
+	#banner-text {
+		font-size: 3.2em;
+	}
+}
+@media (max-width: 992px) {
+	#banner-text {
+		font-size: 2.5em;
+	}	
+}
+@media (min-width: 680px) {
+	.imagens {
+	    display: flex;
+	    margin: 0 auto;
+	    width: 700px;
+	    max-height: 250px;
+	}
+	.carousel-produtos {
+	    display: block;
+	    margin-right: 50px;
+	    margin-top: 40px;
+	    /* border: 1px solid black; */
+	}
+}
 @media (max-width: 768px) {
+	#banner-text {
+		font-size: 
+	}
 	#banner-text{
 		font-size: 3em;
 	}
 	#Jumbo-Home	h2 {
 		font-size: 2em;
+	}
+	.jumbotron p {
+		font-size: 1.3em;
 	}
 }
 
