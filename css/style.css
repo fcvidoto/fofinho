@@ -15,41 +15,39 @@ body{
 	aborder: 1px dashed blue;
 	font-family: sans-serif;
 }
-
 h1{
 	font-family: 'Arial Black', Arial, sans-serif;
+	margin-bottom: 15px;
+}
+#titulo-fofinho-index {
 	margin-bottom: 0;
 }
 h2 {
     color: #ffa00c;
     margin-top: 0;
 }
-li{
+.titulo-li {
 	font-size: 1.15em;
+	font-weight: bold;
 }
 p {
     line-height: 1.3em;
 }
-
 .lista-produtos .row .col-sm-2{
 	padding-top: 30px;
 }
-
 .list-squared{
 	list-style-type: square;
 }
-
 .mini-lista-padding-left{
 	padding-left: 30px;
 	margin-bottom: 10px;
 }
-
 .row-margin{
 	margin-bottom: 30px;
 	padding-bottom: 30px;
 	
 }
-
 .border-dashed{
 	border: 1px dashed blue	;
 }
@@ -69,11 +67,9 @@ p {
 .marcas-h3{
 	margin-bottom: 50px;
 }
-
 a, a:link, a:visited {
 	color: #d72418;
 }
-
 a:hover{
 	color: red;
 	cursor: pointer;
@@ -94,6 +90,9 @@ a#link-produtos {
 	display: block;
 }
 
+#email-avicola {
+	color: red;
+}
 /* BANNER */
 
 .banner {
@@ -107,11 +106,14 @@ a#link-produtos {
 }
 
 #banner-text {
-	font-size: 4em;
+	font-size: 4.6em;
 	text-align: center;
 	color: white;
 	font-family: 'Forte',cursive;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Shadows Into Light', cursive;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+								2px 2px rgba(0, 0, 0, .7);
 }
 
 
@@ -121,7 +123,8 @@ a#link-produtos {
 }
 
 .nav-fof a {
-	color: #d72418;
+	color: #ff4f09;
+	font-size: 1.35em;
 }
 
 .nav-fof a:hover {
@@ -255,11 +258,6 @@ div#iframe-mapa{
 
 /*--------------------------------------*/
 /* MEDIA QUERIES */
-#banner-text {
-	font-size: 4em;
-}
-
-
 @media (max-width:1200px) {
 	#banner-text {
 		font-size: 3.2em;
@@ -279,15 +277,12 @@ div#iframe-mapa{
 	}
 	.carousel-produtos {
 	    display: block;
-	    margin-right: 50px;
+	    margin-right: 80px;
 	    margin-top: 40px;
 	    /* border: 1px solid black; */
 	}
 }
 @media (max-width: 768px) {
-	#banner-text {
-		font-size: 
-	}
 	#banner-text{
 		font-size: 3em;
 	}
@@ -296,9 +291,39 @@ div#iframe-mapa{
 	}
 	.jumbotron p {
 		font-size: 1.3em;
+		line-height: 1.5em;
+	}
+	.nav-fof a {
+		font-size: 1.1em;	
 	}
 }
-
+@media(max-width: 440px ) {
+  #img-galinha {
+  	display: none;
+  }
+	#titulo-fofinho-index {
+		margin-bottom: 15px;
+	}
+}
+@media (max-width: 430px) {
+  .nav-fof li{
+  	font-size: 1.2em;
+  }
+   .nav-fof li a{
+  	padding-left: 5px;
+  	padding-right: 5px;
+  }
+  .jumbotron h1 {
+  	margin-bottom: 15px;
+  }
+  #Jumbo-Home	h2 {
+  	font-size: 1.7em;
+  }
+	.jumbotron p {
+		font-size: 1.3em;
+		line-height: 1.35em;
+	}
+}
 @media (max-width: 400px) {
 	#banner-text{
 		font-size: 1.5em;
@@ -308,17 +333,6 @@ div#iframe-mapa{
 
 	}
 }
-
-@media (max-width: 430px) {
-  .nav-fof li{
-  	font-size: 1.2em;
-  }
-   .nav-fof li a{
-  	padding-left: 5px;
-  	padding-right: 5px;
-  }
-}
-
 @media (max-width: 360px) {
   .nav-fof li{
   	font-size: 1em;
@@ -328,7 +342,6 @@ div#iframe-mapa{
   	padding-right: 5px;
   }
 }
-
 @media (max-width: 325px) {
   .nav-fof li{
   	font-size: 1em;
@@ -338,7 +351,6 @@ div#iframe-mapa{
   	padding-right: 0px;
   }
 }
-
 @media (max-width: 275px) {
   .nav-fof li{
   	font-size: 0.8em;
