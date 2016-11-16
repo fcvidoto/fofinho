@@ -1,0 +1,31 @@
+
+
+
+/*
+overall ==================== */
+/*.flex {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+*/
+
+/*
+header ==================== */
+.logo {
+	height: 120px;
+	float: left;
+}
+
+.logo-text {
+	color: grey;
+	font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-color: rgba(255, 209, 0, 0.67);
+  height: 80px;
+  color: white;
+  border-bottom: 1px solid #c3c3c3;
+}
