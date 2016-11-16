@@ -1,7 +1,0 @@
-#Software: Microsoft Internet Information Services 7.0
-#Version: 1.0
-#Date: 2011-09-21 22:27:40
-#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Cookie) cs(Referer) sc-status sc-substatus sc-win32-status sc-bytes cs-bytes time-taken
-2011-09-21 22:27:39 200.98.247.28 GET / - 80 - 189.121.38.215 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - 200 0 0 433 353 3572
-2011-09-21 22:27:40 200.98.247.28 GET /favicon.ico - 80 - 189.121.38.215 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - 404 0 64 2920 334 15
-2011-09-21 22:27:40 200.98.247.28 GET /favicon.ico - 80 - 189.121.38.215 Mozilla/5.0+(Windows+NT+5.1;+rv:6.0.2)+Gecko/20100101+Firefox/6.0.2 - - 404 0 2 5357 364 15
