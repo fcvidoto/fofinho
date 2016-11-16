@@ -3,19 +3,19 @@
 
 /*
 overall ==================== */
-/*.flex {
+.flex {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-*/
+
 
 /*
 header ==================== */
 .logo {
 	float: left;
-	height: 120px;
+	width: 80px;
 	margin-right: 20px;
 }
 
@@ -27,8 +27,22 @@ header ==================== */
 	text-transform: uppercase;
 }
 
+#bs-example-navbar-collapse-1 {
+  margin-right: 40px;
+}
+  
+#bs-example-navbar-collapse-1 a {
+  color: #4c4c4c;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  padding-top: 33px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  /* text-shadow: 4px 4px 2px rgba(150, 150, 150, 1); */
+}
+
 .header {
-  background-color: rgb(255, 216, 0);
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid #c3c3c3;
   color: white;
   height: 80px;
