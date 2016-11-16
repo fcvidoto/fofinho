@@ -3,13 +3,13 @@
 
 /*
 overall ==================== */
-.flex {
+/*.flex {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-
+*/
 
 /*
 header ==================== */
@@ -32,7 +32,7 @@ header ==================== */
 }
   
 #bs-example-navbar-collapse-1 a {
-  color: #ffffff;
+  color: #5d5d5d;
   font-family: 'Roboto', sans-serif;
   padding-top: 33px;
   text-transform: uppercase;
@@ -45,4 +45,14 @@ header ==================== */
   border-bottom: 1px solid #c3c3c3;
   color: white;
   height: 60px;
+}
+
+/*
+content ==================== */
+.jumbotron-style {
+	background-color: rgb(255, 253, 242);
+/*	background-image: url('../imgs/avicola-exemplo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;*/
 }
