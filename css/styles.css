@@ -8,6 +8,9 @@ overall ==================== */
 	justify-content: space-around;
 }
 
+body {
+	margin-top: 80px;
+}
 
 /*
 nav ==================== */
@@ -49,6 +52,7 @@ header ==================== */
   color: #192314;
   padding-top: 33px;
   letter-spacing: 1px;
+  background-color: #ffc500;
 }
 
 #bs-example-navbar-collapse-1 a:hover {
