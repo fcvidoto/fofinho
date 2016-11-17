@@ -159,6 +159,13 @@ footer ==================== */
 /*
 media queries ==================== */
 @media (max-width: 768px) {
+	
+	.brand-mine {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+
 	.contato {
 		height: 450px;
 	}
