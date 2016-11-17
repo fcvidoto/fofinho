@@ -27,24 +27,65 @@
 		    <!-- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      <ul class="nav navbar-nav navbar-right">
-		        <li class=""><a href="#">Home<span class="sr-only">(current)</span></a></li>
+		        <li class=""><a href="#" target="home">Home<span class="sr-only">(current)</span></a></li>
 		        <li><a href="#">Produtos</a></li>
-		        <li><a href="#">Localização</a></li>
+		        <li><a href="#">Mapa</a></li>
 		        <li><a href="#">Contato</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
-		<div class="content">
+
+		<div class="carrosel">
 			<div class="container text-center">
 				<div class="jumbotron jumbotron-style">
-					<h1 class="">Fofinho</h1>
+					<h1 id="home">Fofinho</h1>
 					<p>A Avícola Centro Americana (Fofinho) esta há mais de 40 anos no ramo de distribuição e atacados, servindo bares e restaurantes com frangos de primeira qualidade!
 					Considerada uma das melhores distribuidoras e atacadistas da região. Atuamos principalmente na Vila Mariana, Aclimação e Cambuci. (São Paulo - SP)</p>
 				</div>
 			</div>
 		</div>
-		<div class="main-pic"></div>
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="http://www.candogseat-this.com/wp-content/uploads/2013/11/can-dogs-eat-raw-chicken-big.jpg" alt="frango">
+		      <div class="carousel-caption">
+		        Os melhores precos de frango!
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="imgs/imagens/frango.jpg" alt="...">
+		      <div class="carousel-caption">
+		        ...
+		      </div>
+		    </div>
+		    ...
+		  </div>
+		</div>
+	  <div class="gallery-produtos">
+	  	<div class="container">
+		  	<h1>Produtos</h1>
+				<p>Trabalhamos com carne de frango congelada e resfriada. Para maiores informações sobre preços, por favor, entre em contato conosco.</p>
+				<p>Produtos com os quais trabalhamos:</p>
+	  		<div class="col-sm-4"><img src="" alt=""></div>
+	  		<div class="col-sm-4"><img src="" alt=""></div>
+	  		<div class="col-sm-4"><img src="" alt=""></div>
+	  	</div>
+	  </div>
+		
+		<div class="map">
+			<iframe class="centered-img" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=S%C3%A3o+Paulo,+Liberdade,+Senador+Carlos+Teixeira+Carvalho,+40&amp;aq=&amp;sll=-23.568186,-46.626398&amp;sspn=0.00654,0.011362&amp;vpsrc=6&amp;g=S%C3%A3o+Paulo,+cambuci,+Muniz+de+Souza,+565&amp;ie=UTF8&amp;hq=&amp;hnear=+Senador+Carlos+Teixeira+Carvalho,+40+-+Liberdade,+S%C3%A3o+Paulo,+01534-000&amp;ll=-23.568186,-46.626398&amp;spn=0.013079,0.022724&amp;t=m&amp;z=14&amp;output=embed">
+			</iframe>
+		</div>
+
 		<div class="footer">
 			<div class="container">
 			<p class="text-center">Copyright © 2011 - 2016. Avicola Centro Americana. Todos os Direitos Reservados.</p>
