@@ -1,21 +1,12 @@
 
-// var largura;
-// $('.content').hover(function() {
-// 	$(this).css('width', largura * 2);
-// }, function() {
-// 	$(this).css('width', largura);
-// });
-// $(document).ready(function() {
-// 	largura = $('.content').css('width').replace('px', '');
-// });
+// $('.navbar-toggle').toggle('collapsed');
 
-// // scroll no element (links da navbar)
-// var element_to_scroll_to = document.getElementById('anchorName2');
-// // Or:
-// var element_to_scroll_to = document.querySelectorAll('.my-element-class')[0];
-// // Or:
-// var element_to_scroll_to = $('.my-element-class')[0];
-// // Basically `element_to_scroll_to` just have to be a reference
-// // to any DOM element present on the page
-// // Then:
-// element_to_scroll_to.scrollIntoView();
+$("nav a").click(function() {
+		$('.navbar-collapse').collapse('hide'); // esconde o menu
+		var href = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(href).offset().top - 80,
+        easing: 'swing',
+    }, 700);
+});
+
