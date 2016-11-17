@@ -119,10 +119,16 @@ body ==================== */
 /*
 produtos (gallery) ==== */
 .gallery-produtos {
-  margin-top: 30px;
+	padding-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   background-color: #283535;
   color: white;
   height: 500px;
+}
+
+.img-marca {
+	width: 100px;
 }
 
 /*
@@ -160,12 +166,22 @@ footer ==================== */
 media queries ==================== */
 @media (max-width: 768px) {
 	
+	/*
+	nav ============= */
 	.brand-mine {
 	  display: block;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
 
+	/*
+	produtos ============= */
+	.gallery-produtos {
+		height: 630px;
+	}
+
+	/*
+	contato ============= */
 	.contato {
 		height: 450px;
 	}
