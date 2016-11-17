@@ -121,7 +121,6 @@ produtos (gallery) ==== */
 .gallery-produtos {
 	padding-top: 30px;
   margin-top: 40px;
-  margin-bottom: 40px;
   background-color: #283535;
   color: white;
   height: 500px;
@@ -141,6 +140,8 @@ contato ==================== */
 .contato {
 	height: 350px;
 	background-color: #f9f9f9;
+	padding-top: 30px
+	padding-bottom: 20px;
 }
 
 .contato div {
