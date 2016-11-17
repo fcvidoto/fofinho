@@ -12,6 +12,18 @@ body {
 	margin-top: 80px;
 }
 
+.red {
+	color: red;
+}
+
+.b {
+	font-weight: bold;
+}
+
+.i {
+	font-style: italic;
+}
+
 /*
 nav ==================== */
 .logo {
@@ -33,15 +45,20 @@ nav ==================== */
 	text-transform: uppercase;
 }
 
-/*
-header ==================== */
-.header {
+.nav-styles {
   background-color: rgb(255, 197, 0);
   border-bottom: none;
   border-radius: 0;
   color: white;
   height: 80px;
   margin-bottom: 0px;
+}
+
+/*
+header ==================== */
+
+.header {
+  background-color: #ffc500;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -67,17 +84,32 @@ header ==================== */
 	padding-bottom: 5px;
 }
 
+
 /*
 body ==================== */
-
-.carrosel {
-  background-color: #ffc500;
-}
-
 .carousel img {
   height: 550px;
   margin: auto;
   margin-top: 30px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+	color: black;
+	opacity: .7;
+}
+
+.carousel-caption {
+  background-color: white;
+  bottom: -5px;
+  color: #ff2020;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 0px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 20px white;
+  /* font-family: 'open sans'; */
 }
 
 /*
