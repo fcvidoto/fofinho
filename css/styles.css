@@ -2,7 +2,7 @@
 /*
 overall ==================== */
 .flex {
-	align-items: center;
+	/* align-items: center; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -127,8 +127,12 @@ produtos (gallery) ==== */
   height: 500px;
 }
 
+.titulo-prod {
+	padding: 10px 0;
+}
+
 .img-marca {
-	width: 100px;
+	height: 100px;
 }
 
 /*
@@ -161,7 +165,6 @@ footer ==================== */
   padding-top: 10px;
 }
 
-
 /*
 media queries ==================== */
 @media (max-width: 768px) {
@@ -177,7 +180,7 @@ media queries ==================== */
 	/*
 	produtos ============= */
 	.gallery-produtos {
-		height: 630px;
+		height: 680px;
 	}
 
 	/*
