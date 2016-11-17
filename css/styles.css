@@ -30,6 +30,17 @@ nav ==================== */
 	text-transform: uppercase;
 }
 
+/*
+header ==================== */
+.header {
+  background-color: rgb(255, 197, 0);
+  border-bottom: none;
+  border-radius: 0;
+  color: white;
+  height: 80px;
+  margin-bottom: 0px;
+}
+
 #bs-example-navbar-collapse-1 {
   margin-right: 40px;
 }
@@ -38,25 +49,13 @@ nav ==================== */
   color: #192314;
   padding-top: 33px;
   letter-spacing: 1px;
-  font-size: .95em;
 }
 
 #bs-example-navbar-collapse-1 a:hover {
-	color: #c1181c;
+	color: #ff0006;
 	transition: .4s;
 }
 
-.header {
-  background-color: rgb(255, 197, 0);
-  border-bottom: none;
-  color: white;
-  height: 80px;
-  border-radius: 0;
-  margin-bottom: 0px;
-}
-
-/*
-content ==================== */
 .content {
   background-color: #ffc500;
 }
@@ -65,14 +64,24 @@ content ==================== */
 	background-color: rgb(255, 197, 0);
 	padding-top: 20px;
 	color: #192314;
-	padding-bottom: 50px;
+	padding-bottom: 5px;
 }
 
 /*
-content ==================== */
+body ==================== */
 .main-pic {
 	height: 500px;
 	background-image: url('http://www.candogseat-this.com/wp-content/uploads/2013/11/can-dogs-eat-raw-chicken-big.jpg');
 	background-repeat: no-repeat;
 	background-position: center ;
+}
+
+/*
+footer ==================== */
+.footer {
+  color: white;
+  background-color: #283535;
+  height: 35px;
+  font-size: .85em;
+  padding-top: 10px;
 }
