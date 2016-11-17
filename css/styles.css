@@ -133,6 +133,7 @@ produtos (gallery) ==== */
 
 .img-marca {
 	height: 100px;
+	border: 1px solid red;
 }
 
 /*
@@ -180,7 +181,7 @@ media queries ==================== */
 	/*
 	produtos ============= */
 	.gallery-produtos {
-		height: 680px;
+		height: 700px;
 	}
 
 	/*
