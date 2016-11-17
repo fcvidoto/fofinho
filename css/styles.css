@@ -148,6 +148,10 @@ contato ==================== */
   padding-bottom: 20px;
 }
 
+.contato li {
+	padding-left: 20px;
+}
+
 /*
 mapa ==================== */
 iframe.centered-img {
@@ -188,7 +192,11 @@ media queries ==================== */
 	/*
 	contato ============= */
 	.contato {
-		height: 450px;
+		height: 700px;
+	}
+
+	.contato div {
+		margin-left: 15px;
 	}
 
 }
