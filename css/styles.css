@@ -1,22 +1,25 @@
 
-
-
 /*
 overall ==================== */
-/*.flex {
+.flex {
 	align-items: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
-*/
+
 
 /*
-header ==================== */
+nav ==================== */
 .logo {
 	float: left;
 	width: 80px;
-	margin-right: 20px;
+	margin-right: 10px;
+}
+
+.brand-mine {
+  margin-top: 25px;
+  width: 100px;
 }
 
 .logo-text {
@@ -32,27 +35,44 @@ header ==================== */
 }
   
 #bs-example-navbar-collapse-1 a {
-  color: #5d5d5d;
-  font-family: 'Roboto', sans-serif;
+  color: #192314;
   padding-top: 33px;
-  text-transform: uppercase;
-  letter-spacing: 4.4px;
-  text-shadow: 0px 0px 10px white;
+  letter-spacing: 1px;
+  font-size: .95em;
+}
+
+#bs-example-navbar-collapse-1 a:hover {
+	color: #c1181c;
+	transition: .4s;
 }
 
 .header {
-  background-color: rgb(255, 216, 0);
-  border-bottom: 1px solid #c3c3c3;
+  background-color: rgb(255, 197, 0);
+  border-bottom: none;
   color: white;
-  height: 60px;
+  height: 80px;
+  border-radius: 0;
+  margin-bottom: 0px;
 }
 
 /*
 content ==================== */
+.content {
+  background-color: #ffc500;
+}
+
 .jumbotron-style {
-	background-color: rgb(255, 253, 242);
-/*	background-image: url('../imgs/avicola-exemplo.jpg');
+	background-color: rgb(255, 197, 0);
+	padding-top: 20px;
+	color: #192314;
+	padding-bottom: 50px;
+}
+
+/*
+content ==================== */
+.main-pic {
+	height: 500px;
+	background-image: url('http://www.candogseat-this.com/wp-content/uploads/2013/11/can-dogs-eat-raw-chicken-big.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;*/
+	background-position: center ;
 }
