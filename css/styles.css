@@ -10,6 +10,8 @@ overall ==================== */
 
 body {
 	margin-top: 80px;
+	font-family: 'Droid Sans', sans-serif;
+	letter-spacing: 1.5px;
 }
 
 .red {
@@ -63,6 +65,7 @@ header ==================== */
 
 .header {
   background-color: #ffc500;
+  font-family: 'Roboto', sans-serif;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -124,6 +127,7 @@ produtos (gallery) ==== */
   background-color: #283535;
   color: white;
   height: 500px;
+	text-shadow: 2px 0px 0px black; 
 }
 
 .titulo-prod {
@@ -150,6 +154,19 @@ contato ==================== */
 
 .contato li {
 	padding-left: 20px;
+}
+
+.telefone,
+.whatsapp {
+	padding-right: 10px;
+}
+
+.telefone {
+	background-image: url('');
+}
+
+.whatsapp {
+	background-image: url('');
 }
 
 /*
