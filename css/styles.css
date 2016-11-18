@@ -141,6 +141,7 @@ produtos (gallery) ==== */
 	padding-bottom: 30px;
 	padding-top: 30px;
 	text-shadow: 2px 0px 0px black; 
+	min-height: 503px;
 }
 
 .titulo-prod {
@@ -151,7 +152,6 @@ produtos (gallery) ==== */
 	height: 100px;
 	border: 1px solid red;
 }
-
 
 /*
 contato ==================== */
@@ -175,11 +175,20 @@ contato ==================== */
 }
 
 .telefone {
-	background-image: url('');
+	background-image: url('../imgs/icons/telefone.png');
 }
 
 .whatsapp {
-	background-image: url('');
+	background-image: url('../imgs/icons/whats.png');
+}
+
+.whatsapp,
+.telefone {
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 130px 0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
 }
 
 /*
