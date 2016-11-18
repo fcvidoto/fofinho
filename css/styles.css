@@ -169,9 +169,20 @@ contato ==================== */
 	padding-left: 20px;
 }
 
+
+.whatsapp,
 .telefone,
-.whatsapp {
-	padding-right: 10px;
+.email {
+	background-position: 130px 0;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+}
+
+.email {
+  background-position-x: 210px;
+	background-image: url('../imgs/icons/email.png');
 }
 
 .telefone {
@@ -180,15 +191,6 @@ contato ==================== */
 
 .whatsapp {
 	background-image: url('../imgs/icons/whats.png');
-}
-
-.whatsapp,
-.telefone {
-	background-size: 20px;
-	background-repeat: no-repeat;
-	background-position: 130px 0px;
-	padding-right: 50px;
-	padding-bottom: 10px;
 }
 
 /*
