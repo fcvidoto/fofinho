@@ -15,6 +15,13 @@ body {
 	margin-top: 80px;
 }
 
+h1, 
+h2, 
+h3, 
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
 .red {
 	color: red;
 }
@@ -29,6 +36,11 @@ body {
 
 .li-none {
 	list-style: none;
+}
+
+.contato h1,
+.gallery-produtos h1 {
+  margin-bottom: 22px;
 }
 
 /*
@@ -63,7 +75,6 @@ nav ==================== */
 
 /*
 header ==================== */
-
 .header {
   background-color: #ffc500;
   font-family: 'Roboto', sans-serif;
@@ -127,7 +138,7 @@ produtos (gallery) ==== */
   margin-top: 40px;
   background-color: #283535;
   color: white;
-  height: 500px;
+  height: 520px;
 	text-shadow: 2px 0px 0px black; 
 }
 
@@ -144,9 +155,9 @@ produtos (gallery) ==== */
 contato ==================== */
 .contato {
 	background-color: #f9f9f9;
-	height: 350px;
+	height: 360px;
 	padding-bottom: 20px;
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 .contato div {
@@ -204,7 +215,7 @@ media queries ==================== */
 	/*
 	produtos ============= */
 	.gallery-produtos {
-		height: 700px;
+		height: 740px;
 	}
 
 	/*
@@ -215,6 +226,16 @@ media queries ==================== */
 
 	.contato div {
 		margin-left: 15px;
+	}
+
+}
+
+@media (max-width: 991px) {
+
+	/*
+	contato ============= */
+	.contato {
+		height: 780px;
 	}
 
 }
