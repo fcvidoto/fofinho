@@ -149,7 +149,7 @@ produtos (gallery) ==== */
 }
 
 .img-marca {
-	height: 100px;
+	height: 90px;
 	border: 1px solid red;
 }
 
@@ -228,8 +228,10 @@ media queries ==================== */
 	  margin-right: auto;
 	}
 
-	.contato div {
-		margin-left: 15px;
+	/*
+	produtos ============= */
+	img-marca {
+		height: 100px;
 	}
 
 }
