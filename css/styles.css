@@ -195,6 +195,10 @@ contato ==================== */
 
 /*
 mapa ==================== */
+.mapa {
+	background-color: #f9f9f9;
+}
+
 iframe.centered-img {
   height: 500px;
   width: 100%;
