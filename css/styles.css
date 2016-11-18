@@ -9,9 +9,10 @@ overall ==================== */
 }
 
 body {
-	margin-top: 80px;
 	font-family: 'Droid Sans', sans-serif;
 	letter-spacing: 1.5px;
+	line-height: 1.5;
+	margin-top: 80px;
 }
 
 .red {
