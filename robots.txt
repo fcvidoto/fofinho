@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /bower_components/
+Sitemap: http://www.fofinho.net
